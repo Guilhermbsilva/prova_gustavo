@@ -1,0 +1,31 @@
+<!-- professor.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduConnect - Adicionar Aula</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <h2>Adicionar Nova Aula</h2>
+        <form id="add-class-form">
+            <label for="class-title">Título da Aula:</label>
+            <input type="text" id="class-title" placeholder="Digite o título da aula" required>
+
+            <label for="class-description">Descrição:</label>
+            <textarea id="class-description" placeholder="Digite a descrição da aula" required></textarea>
+            <button type="submit" id="add-aula">Adicionar Aula</button>
+            <button onclick="clearData()" id="clear">Limpar Dados</button>
+        </form>
+
+        <button onclick="window.location.href='index.html'" id="sair">Sair</button>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
